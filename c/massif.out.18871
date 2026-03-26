@@ -1,0 +1,112 @@
+desc: (none)
+cmd: ./thread1.out
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=159828
+mem_heap_B=4
+mem_heap_extra_B=20
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=161086
+mem_heap_B=276
+mem_heap_extra_B=28
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=161939
+mem_heap_B=548
+mem_heap_extra_B=36
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=162768
+mem_heap_B=820
+mem_heap_extra_B=44
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=163838
+mem_heap_B=1844
+mem_heap_extra_B=52
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=178909
+mem_heap_B=1844
+mem_heap_extra_B=52
+mem_stacks_B=0
+heap_tree=peak
+n3: 1844 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1024 0x48E7BA3: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 1024 0x48F6CDF: _IO_doallocbuf (genops.c:347)
+   n1: 1024 0x48F5F5F: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:744)
+    n1: 1024 0x48F46D4: _IO_new_file_xsputn (fileops.c:1243)
+     n1: 1024 0x48F46D4: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1196)
+      n1: 1024 0x48DE14C: outstring_func (vfprintf-internal.c:239)
+       n1: 1024 0x48DE14C: __vfprintf_internal (vfprintf-internal.c:1263)
+        n1: 1024 0x48C979E: printf (printf.c:33)
+         n1: 1024 0x10925A: myThread (thread1.c:9)
+          n1: 1024 0x48FDAC2: start_thread (pthread_create.c:442)
+           n0: 1024 0x498EA83: clone (clone.S:100)
+ n1: 816 0x40147D9: calloc (rtld-malloc.h:44)
+  n1: 816 0x40147D9: allocate_dtv (dl-tls.c:375)
+   n1: 816 0x40147D9: _dl_allocate_tls (dl-tls.c:634)
+    n1: 816 0x48FE7B4: allocate_stack (allocatestack.c:430)
+     n3: 816 0x48FE7B4: pthread_create@@GLIBC_2.34 (pthread_create.c:647)
+      n0: 272 0x10930C: main (thread1.c:29)
+      n0: 272 0x10932B: main (thread1.c:30)
+      n0: 272 0x10934A: main (thread1.c:31)
+ n0: 4 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=7
+#-----------
+time=178909
+mem_heap_B=820
+mem_heap_extra_B=44
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=181206
+mem_heap_B=548
+mem_heap_extra_B=36
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=181607
+mem_heap_B=276
+mem_heap_extra_B=28
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=182008
+mem_heap_B=4
+mem_heap_extra_B=20
+mem_stacks_B=0
+heap_tree=empty
