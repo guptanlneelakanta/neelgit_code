@@ -1,0 +1,1 @@
+savedcmd_/home/neelakanta/neelgit_code/Linux_Devicedriver/helloworld_ldd/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/neelakanta/neelgit_code/Linux_Devicedriver/helloworld_ldd/Module.symvers -T /home/neelakanta/neelgit_code/Linux_Devicedriver/helloworld_ldd/modules.order -i Module.symvers -e 
