@@ -1,0 +1,231 @@
+Please find below few more topics:
+
+ 
+
+Write a C function that takes a null terminated string as the only one argument
+When the function returns, the string will be reversed.
+Do not call any other function from this function.
+Use at the most two local variables. Restrict to one variable if you can.
+This shall work for string of any length.
+The return type of the function is void.
+Write only the function no other line of code.
+
+ 
+
+ 
+
+ 
+
+Write a function to print the following pattern.
+The function takes the number of rows as an argument
+Write only the function. Do not write main, scanf, #include etc.
+The example shows the output for number of rows = 5
+But the function shall work for any number of rows.
+1
+2  6
+3  7  10
+4  8  11  13
+5  9  12  14  15
+
+ 
+
+NOTE: do not use an array, print on the fly.
+
+ 
+
+This is for a baremetal system (No operating system)
+Write a function to provide delay in terms of milli seconds.
+The processor provides a 32 bit free running counter register.
+This is a read only register.
+It increments every processor clock cycle.
+The processor clock is 192 MHz
+The counter register is at address 0xA0000000
+Make use of this for impelmenting the delay function.
+Write only the function and no other line of code.
+
+ 
+
+Write a C function that takes a null terminated string as the only one argument
+When the function returns, the string will be reversed.
+Do not call any other function from this function.
+Use at the most two local variables. Restrict to one variable if you can.
+This shall work for string of any length.
+The return type of the function is void.
+Write only the function no other line of code.
+
+ 
+
+ 
+
+Write a function to print the following pattern.
+The function takes the size of the square as an argument.
+Write only the function. Do not write any other line of code.
+The examples shows the output for size = 3 and size = 5.
+But the function shall work for any given size.
+The letter shall wrap around to A after Z.
+IMPORTANT: do not use an array. Print on the fly.
+
+ 
+
+Size = 3
+A B C
+H   D
+G F E
+
+ 
+
+Size = 5
+A B C D E
+P       F
+O       G
+N       H
+M L K J I
+
+ 
+
+ 
+
+TX - 7 bits
+
+ 
+
+Rx node - 8 bits.'
+
+ 
+
+Transmit letter A.
+
+ 
+
+Write a function to print the following pattern.
+The function takes the number of rows as an argument
+Write only the function. Do not write main, scanf, #include etc.
+The example shows the output for number of rows = 5
+But the function shall work for any number of rows.
+1    2     3    4         5
+16                          6
+15                          7
+14                          8
+13   12    11   10    9   
+NOTE: do not use an array, print on the fly.
+
+ 
+
+Write a C function that takes a null terminated string as the only one argument
+When the function returns, the string will be reversed.
+Do not call any other function from this function.
+Use at the most two local variables. Restrict to one variable if you can.
+This shall work for string of any length.
+The return type of the function is void.
+Write only the function no other line of code.
+
+ 
+
+[ 'a', 'b', 'c', '\0']
+
+ 
+
+Write a function to print the following pattern.
+The function takes the number of rows as an argument.
+Write only the function. Do not write any other line of code.
+The examples shows the output for number of rows = 5 and 3
+But the function shall work for any number of rows.
+
+ 
+
+ 
+
+IMPORTANT: Use only one local variable
+
+ 
+
+ 
+
+nrow = 5
+25  24  23  22  21
+20  19  18  17  16
+15  14  13  12  11
+10  9  8  7  6
+5  4  3  2  1
+
+ 
+
+ 
+
+nrow = 3
+9  8  7
+6  5  4
+3  2  1
+
+ 
+
+function prototype:
+void print_num_square(const int nrow);
+
+ 
+
+There is a Linux application program with two threads.
+both of them have an init step and a processing loop.
+as shown below.
+
+ 
+
+main()
+{
+<show your sychronization primitive initialization here>
+}
+t1()
+{
+   t1_init();
+<add your code here>
+   t1_process_loop();
+}
+t2()
+{
+   t2_init();
+<add your code here>
+   t2_process_loop();
+}
+The processing loops can be run only after the init step is done for both the threads.
+That is only after t1_init() and t2_init() are both executed.
+Can you edit the code to insert appropriate synchronization in both the thread functions?
+
+ 
+
+
+ 
+
+ 
+
+
+ 
+
+CAN
+Addressing 2/5
+Arbitration - 2/5
+Watchdog
+Port
+DIO
+ 
+
+* Watchdog timer gets triggered in the field (unintentionally), how to bypass or fix it.
+
+* Simple add function problem
+
+* Interrupts, Mutexes etc.
+
+ 
+
+ 
+
+This is for a baremetal system (No operating system)
+Write a function to provide delay in terms of milli seconds.
+The processor provides a 32 bit free running counter register.
+This is a read only register.
+It increments every processor clock cycle.
+The processor clock is 192 MHz
+The counter register is at address 0xA0000000
+Make use of this for impelmenting the delay function.
+Write only the function and no other line of code.
+
+ 
