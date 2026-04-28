@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.7"/>
+    <errors>
+        <error id="memleak" severity="error" msg="Memory leak: p" verbose="Memory leak: p" cwe="401" file0="bitfield1.c">
+            <location file="bitfield1.c" line="58" column="1"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="deallocuse" severity="error" msg="Dereferencing &apos;ptr&apos; after it is deallocated / released" verbose="Dereferencing &apos;ptr&apos; after it is deallocated / released" cwe="416" file0="cppcheck1.c">
+            <location file="cppcheck1.c" line="10" column="6"/>
+            <symbol>ptr</symbol>
+        </error>
+        <error id="unknownEvaluationOrder" severity="error" msg="Expression &apos;num1^=num2^=num1^=num2&apos; depends on order of evaluation of side effects" verbose="Expression &apos;num1^=num2^=num1^=num2&apos; depends on order of evaluation of side effects" cwe="768" file0="demo.c">
+            <location file="demo.c" line="22" column="6"/>
+        </error>
+        <error id="unknownEvaluationOrder" severity="error" msg="Expression &apos;num1^=num2^=num1^=num2&apos; depends on order of evaluation of side effects" verbose="Expression &apos;num1^=num2^=num1^=num2&apos; depends on order of evaluation of side effects" cwe="768" file0="macro1.c">
+            <location file="macro1.c" line="30" column="5"/>
+        </error>
+        <error id="unknownEvaluationOrder" severity="error" msg="Expression &apos;(num1+num2)-(num2=num1)&apos; depends on order of evaluation of side effects" verbose="Expression &apos;(num1+num2)-(num2=num1)&apos; depends on order of evaluation of side effects" cwe="768" file0="macro1.c">
+            <location file="macro1.c" line="46" column="19"/>
+        </error>
+        <error id="missingReturn" severity="error" msg="Found a exit path from function with non-void return type that has missing return statement" verbose="Found a exit path from function with non-void return type that has missing return statement" cwe="758" file0="ptr1.c">
+            <location file="ptr1.c" line="6" column="1"/>
+        </error>
+        <error id="nullPointer" severity="error" msg="Null pointer dereference: ptr" verbose="Null pointer dereference: ptr" cwe="476" file0="ptr2.c">
+            <location file="ptr2.c" line="18" column="6" info="Null pointer dereference"/>
+            <location file="ptr2.c" line="17" column="14" info="Assignment &apos;ptr=NULL&apos;, assigned value is 0"/>
+            <symbol>ptr</symbol>
+        </error>
+        <error id="nullPointer" severity="error" msg="Null pointer dereference: ptr" verbose="Null pointer dereference: ptr" cwe="476" file0="ptr2.c">
+            <location file="ptr2.c" line="20" column="27" info="Null pointer dereference"/>
+            <location file="ptr2.c" line="17" column="14" info="Assignment &apos;ptr=NULL&apos;, assigned value is 0"/>
+            <symbol>ptr</symbol>
+        </error>
+    </errors>
+</results>

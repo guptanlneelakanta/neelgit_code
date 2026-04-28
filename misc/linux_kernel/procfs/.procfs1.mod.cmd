@@ -1,0 +1,1 @@
+savedcmd_/home/neelakanta/misc/linux_kernel/procfs/procfs1.mod := printf '%s\n'   procfs1.o | awk '!x[$$0]++ { print("/home/neelakanta/misc/linux_kernel/procfs/"$$0) }' > /home/neelakanta/misc/linux_kernel/procfs/procfs1.mod

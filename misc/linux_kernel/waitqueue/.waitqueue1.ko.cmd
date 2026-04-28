@@ -1,0 +1,1 @@
+savedcmd_/home/neelakanta/misc/linux_kernel/waitqueue/waitqueue1.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/neelakanta/misc/linux_kernel/waitqueue/waitqueue1.ko /home/neelakanta/misc/linux_kernel/waitqueue/waitqueue1.o /home/neelakanta/misc/linux_kernel/waitqueue/waitqueue1.mod.o

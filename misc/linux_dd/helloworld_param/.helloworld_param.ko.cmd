@@ -1,0 +1,1 @@
+savedcmd_/home/neelakanta/misc/linux_dd/helloworld_param/helloworld_param.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/neelakanta/misc/linux_dd/helloworld_param/helloworld_param.ko /home/neelakanta/misc/linux_dd/helloworld_param/helloworld_param.o /home/neelakanta/misc/linux_dd/helloworld_param/helloworld_param.mod.o

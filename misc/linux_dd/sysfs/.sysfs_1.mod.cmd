@@ -1,0 +1,1 @@
+savedcmd_/home/neelakanta/misc/linux_dd/sysfs/sysfs_1.mod := printf '%s\n'   sysfs_1.o | awk '!x[$$0]++ { print("/home/neelakanta/misc/linux_dd/sysfs/"$$0) }' > /home/neelakanta/misc/linux_dd/sysfs/sysfs_1.mod

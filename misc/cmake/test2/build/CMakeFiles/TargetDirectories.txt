@@ -1,0 +1,3 @@
+/home/neelakanta/misc/cmake/test2/build/CMakeFiles/test_app.dir
+/home/neelakanta/misc/cmake/test2/build/CMakeFiles/edit_cache.dir
+/home/neelakanta/misc/cmake/test2/build/CMakeFiles/rebuild_cache.dir

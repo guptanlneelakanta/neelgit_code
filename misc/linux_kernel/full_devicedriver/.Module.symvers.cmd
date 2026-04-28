@@ -1,0 +1,1 @@
+savedcmd_/home/neelakanta/misc/linux_kernel/full_devicedriver/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/neelakanta/misc/linux_kernel/full_devicedriver/Module.symvers -T /home/neelakanta/misc/linux_kernel/full_devicedriver/modules.order -i Module.symvers -e 

@@ -1,0 +1,5 @@
+{
+    "idf.pythonInstallPath": "/usr/bin/python3",
+    "idf.currentSetup": "/home/neelakanta/esp/v5.5.1/esp-idf",
+    "cmake.sourceDirectory": "/home/neelakanta/misc/freertos_esp32/ESP32-freeRTOS/ESP32_FreeRTOS_1"
+}

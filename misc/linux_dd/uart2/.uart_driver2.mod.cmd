@@ -1,0 +1,1 @@
+savedcmd_/home/neelakanta/misc/linux_dd/uart2/uart_driver2.mod := printf '%s\n'   uart_driver2.o | awk '!x[$$0]++ { print("/home/neelakanta/misc/linux_dd/uart2/"$$0) }' > /home/neelakanta/misc/linux_dd/uart2/uart_driver2.mod

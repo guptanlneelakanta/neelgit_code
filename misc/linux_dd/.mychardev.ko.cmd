@@ -1,0 +1,1 @@
+savedcmd_/home/neelakanta/misc/linux_dd/mychardev.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/neelakanta/misc/linux_dd/mychardev.ko /home/neelakanta/misc/linux_dd/mychardev.o /home/neelakanta/misc/linux_dd/mychardev.mod.o

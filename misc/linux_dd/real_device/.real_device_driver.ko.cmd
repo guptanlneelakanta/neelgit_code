@@ -1,0 +1,1 @@
+savedcmd_/home/neelakanta/misc/linux_dd/real_device/real_device_driver.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/neelakanta/misc/linux_dd/real_device/real_device_driver.ko /home/neelakanta/misc/linux_dd/real_device/real_device_driver.o /home/neelakanta/misc/linux_dd/real_device/real_device_driver.mod.o

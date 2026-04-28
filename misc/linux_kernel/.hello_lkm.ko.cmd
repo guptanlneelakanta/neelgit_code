@@ -1,0 +1,1 @@
+savedcmd_/home/neelakanta/misc/linux_kernel/hello_lkm.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/neelakanta/misc/linux_kernel/hello_lkm.ko /home/neelakanta/misc/linux_kernel/hello_lkm.o /home/neelakanta/misc/linux_kernel/hello_lkm.mod.o

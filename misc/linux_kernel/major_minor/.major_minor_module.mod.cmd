@@ -1,0 +1,1 @@
+savedcmd_/home/neelakanta/misc/linux_kernel/major_minor/major_minor_module.mod := printf '%s\n'   major_minor_module.o | awk '!x[$$0]++ { print("/home/neelakanta/misc/linux_kernel/major_minor/"$$0) }' > /home/neelakanta/misc/linux_kernel/major_minor/major_minor_module.mod

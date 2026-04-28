@@ -1,0 +1,1 @@
+savedcmd_/home/neelakanta/misc/linux_dd/helloworld_realdev/helloworld_realdev.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/neelakanta/misc/linux_dd/helloworld_realdev/helloworld_realdev.ko /home/neelakanta/misc/linux_dd/helloworld_realdev/helloworld_realdev.o /home/neelakanta/misc/linux_dd/helloworld_realdev/helloworld_realdev.mod.o

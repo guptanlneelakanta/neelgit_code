@@ -1,0 +1,1 @@
+savedcmd_/home/neelakanta/misc/linux_kernel/ioctl_driver/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/neelakanta/misc/linux_kernel/ioctl_driver/Module.symvers -T /home/neelakanta/misc/linux_kernel/ioctl_driver/modules.order -i Module.symvers -e 

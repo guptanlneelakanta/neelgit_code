@@ -1,0 +1,1 @@
+savedcmd_/home/neelakanta/misc/linux_dd/char_drv.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/neelakanta/misc/linux_dd/char_drv.ko /home/neelakanta/misc/linux_dd/char_drv.o /home/neelakanta/misc/linux_dd/char_drv.mod.o

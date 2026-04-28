@@ -1,0 +1,1 @@
+savedcmd_/home/neelakanta/misc/linux_dd/helloworld/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/neelakanta/misc/linux_dd/helloworld/Module.symvers -T /home/neelakanta/misc/linux_dd/helloworld/modules.order -i Module.symvers -e 

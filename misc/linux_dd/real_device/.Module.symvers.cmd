@@ -1,0 +1,1 @@
+savedcmd_/home/neelakanta/misc/linux_dd/real_device/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/neelakanta/misc/linux_dd/real_device/Module.symvers -T /home/neelakanta/misc/linux_dd/real_device/modules.order -i Module.symvers -e 

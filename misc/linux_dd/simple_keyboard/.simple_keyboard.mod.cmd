@@ -1,0 +1,1 @@
+savedcmd_/home/neelakanta/misc/linux_dd/simple_keyboard/simple_keyboard.mod := printf '%s\n'   simple_keyboard.o | awk '!x[$$0]++ { print("/home/neelakanta/misc/linux_dd/simple_keyboard/"$$0) }' > /home/neelakanta/misc/linux_dd/simple_keyboard/simple_keyboard.mod

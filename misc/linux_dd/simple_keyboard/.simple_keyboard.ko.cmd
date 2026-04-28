@@ -1,0 +1,1 @@
+savedcmd_/home/neelakanta/misc/linux_dd/simple_keyboard/simple_keyboard.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/neelakanta/misc/linux_dd/simple_keyboard/simple_keyboard.ko /home/neelakanta/misc/linux_dd/simple_keyboard/simple_keyboard.o /home/neelakanta/misc/linux_dd/simple_keyboard/simple_keyboard.mod.o

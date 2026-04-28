@@ -1,0 +1,1 @@
+savedcmd_/home/neelakanta/misc/linux_kernel/waitqueue_dynamic/waitqueue_dynamic1.mod := printf '%s\n'   waitqueue_dynamic1.o | awk '!x[$$0]++ { print("/home/neelakanta/misc/linux_kernel/waitqueue_dynamic/"$$0) }' > /home/neelakanta/misc/linux_kernel/waitqueue_dynamic/waitqueue_dynamic1.mod

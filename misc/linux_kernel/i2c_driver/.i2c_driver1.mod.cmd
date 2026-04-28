@@ -1,0 +1,1 @@
+savedcmd_/home/neelakanta/misc/linux_kernel/i2c_driver/i2c_driver1.mod := printf '%s\n'   i2c_driver1.o | awk '!x[$$0]++ { print("/home/neelakanta/misc/linux_kernel/i2c_driver/"$$0) }' > /home/neelakanta/misc/linux_kernel/i2c_driver/i2c_driver1.mod

@@ -1,0 +1,26 @@
+# --- Configuration Variables ---
+
+# Name of the kernel module (without the .ko extension)
+# Replace 'hello' with the name of your source file (without .c)
+obj-m := hello.o 
+
+# --- Build Commands ---
+
+# Specify the path to the Linux kernel source tree headers.
+# KDIR should point to the directory containing the kernel source or build output.
+# If you are compiling on the machine you are running the kernel on, 
+# this usually points to the currently running kernel's build directory.
+KDIR := /lib/modules/$(shell uname -r)/build
+
+# The 'PWD' variable is set to the current directory
+PWD := $(shell pwd)
+
+# Default target when you run 'make'
+all:
+	# Calls the main kernel Makefile found in KDIR
+	$(MAKE) -C $(KDIR) M=$(PWD) modules
+
+# Cleanup target when you run 'make clean'
+clean:
+	# Cleans up files created by the kernel build system
+	$(MAKE) -C $(KDIR) M=$(PWD) clean

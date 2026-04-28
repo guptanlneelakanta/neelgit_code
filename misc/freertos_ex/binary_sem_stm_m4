@@ -1,0 +1,55 @@
+#include "main.h"
+#include "cmsis_os.h"
+
+SemaphoreHandle_t binSemHandle;
+
+void TaskGive(void *argument);
+void TaskTake(void *argument);
+
+
+int main(void)
+{
+  HAL_Init();
+  SystemClock_Config();
+  MX_GPIO_Init();
+  MX_FREERTOS_Init(); // If using CubeMX auto code
+
+  /* Create binary semaphore */
+  binSemHandle = xSemaphoreCreateBinary();
+
+  /* Check semaphore creation */
+  if (binSemHandle == NULL) {
+    Error_Handler();
+  }
+
+  /* Create tasks */
+  xTaskCreate(TaskGive, "GiveTask", 128, NULL, 2, NULL);
+  xTaskCreate(TaskTake, "TakeTask", 128, NULL, 2, NULL);
+
+  /* Start scheduler */
+  vTaskStartScheduler();
+
+  while (1) {}  // Should not reach here
+}
+
+
+void TaskGive(void *argument)
+{
+  for(;;)
+  {
+    xSemaphoreGive(binSemHandle);
+    HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_13);  // Example: toggle LED
+    vTaskDelay(pdMS_TO_TICKS(1000));         // 1 sec delay
+  }
+}
+
+void TaskTake(void *argument)
+{
+  for(;;)
+  {
+    if (xSemaphoreTake(binSemHandle, portMAX_DELAY) == pdTRUE) {
+      printf("Semaphore received!\r\n");     // Use UART or SWO log
+    }
+  }
+}
+

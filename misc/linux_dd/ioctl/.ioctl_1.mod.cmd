@@ -1,0 +1,1 @@
+savedcmd_/home/neelakanta/misc/linux_dd/ioctl/ioctl_1.mod := printf '%s\n'   ioctl_1.o | awk '!x[$$0]++ { print("/home/neelakanta/misc/linux_dd/ioctl/"$$0) }' > /home/neelakanta/misc/linux_dd/ioctl/ioctl_1.mod

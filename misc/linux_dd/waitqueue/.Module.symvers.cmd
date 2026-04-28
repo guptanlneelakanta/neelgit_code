@@ -1,0 +1,1 @@
+savedcmd_/home/neelakanta/misc/linux_dd/waitqueue/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/neelakanta/misc/linux_dd/waitqueue/Module.symvers -T /home/neelakanta/misc/linux_dd/waitqueue/modules.order -i Module.symvers -e 

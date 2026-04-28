@@ -1,0 +1,1 @@
+savedcmd_/home/neelakanta/misc/linux_dd/fileops/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/neelakanta/misc/linux_dd/fileops/Module.symvers -T /home/neelakanta/misc/linux_dd/fileops/modules.order -i Module.symvers -e 

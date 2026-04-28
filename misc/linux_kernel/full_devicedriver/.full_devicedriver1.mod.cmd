@@ -1,0 +1,1 @@
+savedcmd_/home/neelakanta/misc/linux_kernel/full_devicedriver/full_devicedriver1.mod := printf '%s\n'   full_devicedriver1.o | awk '!x[$$0]++ { print("/home/neelakanta/misc/linux_kernel/full_devicedriver/"$$0) }' > /home/neelakanta/misc/linux_kernel/full_devicedriver/full_devicedriver1.mod

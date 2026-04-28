@@ -1,0 +1,1 @@
+savedcmd_/home/neelakanta/misc/linux_kernel/ioctl_driver/ioctl_driver1.mod := printf '%s\n'   ioctl_driver1.o | awk '!x[$$0]++ { print("/home/neelakanta/misc/linux_kernel/ioctl_driver/"$$0) }' > /home/neelakanta/misc/linux_kernel/ioctl_driver/ioctl_driver1.mod

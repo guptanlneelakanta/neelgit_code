@@ -1,0 +1,11 @@
+
+make
+
+//4️⃣ Load the Module
+sudo insmod hello_lkm.ko
+//check log
+sudo dmesg | tail
+
+
+//Unload the Module
+sudo rmmod hello_lkm

@@ -1,0 +1,1 @@
+savedcmd_/home/neelakanta/misc/linux_kernel/major_minor_2/major_minor_dynamic.mod := printf '%s\n'   major_minor_dynamic.o | awk '!x[$$0]++ { print("/home/neelakanta/misc/linux_kernel/major_minor_2/"$$0) }' > /home/neelakanta/misc/linux_kernel/major_minor_2/major_minor_dynamic.mod

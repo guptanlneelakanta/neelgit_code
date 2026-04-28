@@ -1,0 +1,1 @@
+savedcmd_/home/neelakanta/misc/linux_kernel/major_minor_2/major_minor_dynamic.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/neelakanta/misc/linux_kernel/major_minor_2/major_minor_dynamic.ko /home/neelakanta/misc/linux_kernel/major_minor_2/major_minor_dynamic.o /home/neelakanta/misc/linux_kernel/major_minor_2/major_minor_dynamic.mod.o

@@ -1,0 +1,1 @@
+savedcmd_/home/neelakanta/misc/linux_dd/waitqueue/waitqueue_1.mod := printf '%s\n'   waitqueue_1.o | awk '!x[$$0]++ { print("/home/neelakanta/misc/linux_dd/waitqueue/"$$0) }' > /home/neelakanta/misc/linux_dd/waitqueue/waitqueue_1.mod

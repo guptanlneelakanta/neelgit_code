@@ -1,0 +1,1 @@
+savedcmd_/home/neelakanta/misc/linux_kernel/file_operations/file_operations.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/neelakanta/misc/linux_kernel/file_operations/file_operations.ko /home/neelakanta/misc/linux_kernel/file_operations/file_operations.o /home/neelakanta/misc/linux_kernel/file_operations/file_operations.mod.o

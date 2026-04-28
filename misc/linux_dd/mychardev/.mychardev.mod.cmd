@@ -1,0 +1,1 @@
+savedcmd_/home/neelakanta/misc/linux_dd/mychardev/mychardev.mod := printf '%s\n'   mychardev.o | awk '!x[$$0]++ { print("/home/neelakanta/misc/linux_dd/mychardev/"$$0) }' > /home/neelakanta/misc/linux_dd/mychardev/mychardev.mod
